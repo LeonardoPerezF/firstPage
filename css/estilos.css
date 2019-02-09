@@ -1,0 +1,119 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  background:#CFD8DC;
+}
+.content{
+  width: 90%;
+  border: 1px solid #000;
+  margin: auto;
+  /*clear: both;
+  display: table;*/
+}
+header{
+  background: #000;
+  font-style: normal;
+  font-size: 0.75rem;
+  color: #CFD8DC;
+  padding-top: 10px;
+  min-height: 70px;
+  border-bottom: 4px solid #03A9F4;
+}
+header .logo{
+  color: #E040FB;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+}
+section{
+  margin-top: 15px;
+  float: left;
+  width: 80%;
+}
+nav{
+  min-height: 30px;
+  background: rgba(0, 0, 0, .8);
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+article a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #fff;
+  padding-right: 5px;
+  border-right: 1px solid #E040FB;
+}
+article li{
+  padding: 0 9px;
+  float: left;  
+}
+.activo {
+  color: #E040FB;
+  font-weight: bolder;
+}
+a:hover{
+  color:#03A9F4;
+}
+section article #demo{
+  margin: 10px;
+  min-height: 420px;
+}
+article .content{
+  background: #1976d2;
+}
+h3{
+  color: #fff;
+  font-size: 2rem;
+}
+p{
+  color: #cfd8dc;
+  font-size: 14px;
+}
+aside{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+  min-height: 200px;
+  width: 20%;
+}
+aside .content{
+  background: #000;
+}
+#ingreso{
+  margin-top: 30px;
+  height: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+#registro{
+  height: 400px;
+  padding: 10px;
+  text-align: center;
+}
+.boton{
+  background: #E040FB;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pass{
+  height: 20px;
+  border: 0;
+  border: 2px solid #03A9F4;
+  background: #CFD8DC;
+}
+footer{
+  padding: 5px;
+  text-align: center;
+  font-size: 10px;
+  background: #000;
+  color: #fff;
+  clear: left; 
+}
